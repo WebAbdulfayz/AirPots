@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #282828;
+}
+
+.header__nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.item {
+    color: white;
+    padding-right: 30px;
+    transition: .5s;
+}
+
+.img {
+    background: #282828;
+    padding: 6px 30px 6px 0;
+}
+
+.icons i {
+    padding-right: 25px;
+    color: #fff;
+}
+
+.item:hover {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.offical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1600px;
+    height: 700px;
+    background: url(./img/Header.png);
+}
+
+.offical__title {
+    font-family: 'Prosto One';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.ggg {
+    text-align: center;
+}
+.button img{
+    padding-left: 11px;
+}
+.offical__link {
+    margin-top: 38px;
+    border-radius: 10px;
+    padding: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #171718;
+}
+.offical__link a{
+    color: #171718;
+}
+
+.main {
+    background: #151515;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.praducts {
+    padding-top: 24px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.product__text {
+    padding-top: 23px;
+    width: 47%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.rr{
+    padding: 11px;
+}
+.oo{
+    align-items: center;
+}
+.v {
+    align-items: center;
+}
+
+.b {
+    width: 33%;
+}
+
+.bb {
+    text-align: right;
+}
+
+.phones {
+    padding-top: 29px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+.phone {
+    margin-right: 30px;
+    width: 255px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.phone__title {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.phone img {
+    padding-left: 64px;
+}
+
+.phone__text {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.product__link {
+    margin: 0 47px 15px 47px;
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product__link a{
+    color: #FFFFFF;
+}
+.footer{
+    background: #282828;
+    width: 1600px;
+    margin: 0 auto;
+}
+.footer img{
+    padding: 81px 0 81px 0;
+
+}
